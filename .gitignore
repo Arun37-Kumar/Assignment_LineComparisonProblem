@@ -1,3 +1,4 @@
 LineComparisonProblem/obj/Debug
-obj/Debug
+/obj/
 Properties/
+/bin/
