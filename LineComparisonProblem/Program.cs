@@ -10,8 +10,7 @@ namespace LineComparisonProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Line Comparison Program.");
-         
+            Console.WriteLine("Welcome to Line Comparison Program.");  
             //UC1
             double x1 = 2, x2 = 3;
             double y1 = 4, y2 = 5;
@@ -36,5 +35,6 @@ namespace LineComparisonProblem
                 Console.WriteLine("Lines are not Equal");
             }
         }
+
     }
 }
