@@ -26,9 +26,15 @@ namespace LineComparisonProblem
         {
             double line1 = Math.Sqrt(Math.Pow(x2- x1, 2) + Math.Pow(y2 - y1, 2));
             double line2 = Math.Sqrt((Math.Pow(p2- p1, 2) + Math.Pow(q2- q1, 2)));
-            Console.WriteLine(line1);
-            Console.WriteLine(line2);
-            Console.ReadLine(); 
+            
+            if (line1 == line2)
+            {
+                Console.WriteLine("Lines are Equal");
+            }
+            else
+            {
+                Console.WriteLine("Lines are not Equal");
+            }
         }
     }
 }
